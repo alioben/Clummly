@@ -1,0 +1,142 @@
+ @media (min-width: 981px) {
+	#first_container{
+		padding-top: 60px;
+	}
+ }
+.navbar{
+	z-index:5;
+}
+.loader, .update_loader{
+	position:fixed;
+	z-index:1;
+	display:none;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	opacity:0.7;
+	height:100%;
+	width:100%;
+	color:#FFF;
+}
+.loader img{
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-8px;
+	margin-left:-8px;
+}
+ .update_loader div{
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-20px;
+	margin-left:-88px;
+ }
+.hero-unit{
+	position:relative;
+	padding-top:3px;
+	padding-left:15px;
+	padding-bottom:3px;
+	padding-right:50px;
+	border:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+.hero-unit:hover{
+	opacity:0.9;
+}
+.hero-unit p{
+	font-size:11pt;
+}
+.hero-unit h4{
+	color:#FFF;
+}
+.news_categories{
+	min-height:70px;
+}
+.news_categories p{
+	font-size:small;
+	line-height:18px;
+}
+.arrow-right{
+	position:absolute;
+	right:5px;
+	top:50%;
+	margin-top:-14.5px;
+	background-image: url(../img/arrow-right.png);
+	height:29px;
+	width: 30px;
+}
+.news_categorie_list .hero-unit{
+	padding-right:5px;
+	padding-bottom:7px;
+	padding-right:10px;
+}
+.news_categorie_list .hero-unit h3{
+	line-height:normal;
+}
+.news_categorie_list .hero-unit p{
+	line-height:normal;
+}
+.btn_return{
+	display:none;
+}
+.news_article_list{
+	display:none;
+}
+.thumbnail{
+	position:relative;
+}
+.thumbnail h3{
+	margin-left:10px;
+	color:#FFF;
+}
+.thumbnail .source-icon{
+	max-width:20px;
+	max-height:20px;
+	vertical-align: middle;
+}
+.loading-aticle-image{
+	position:relative;
+	width:100%;
+	background-color:#000;
+	opacity:0.4;
+	text-align:bottom;
+	height: 100px;
+	color:#FFF;
+}
+.loading-aticle-image div{
+	position:absolute;
+	bottom:5px;
+	left:50%;
+	margin-left:-103px;
+}
+.languages li img{
+	width:20px;
+	height:15px;
+}
+.article_infos{
+	margin-left:10px;
+	margin-bottom:7px;
+}
+.lang_fr a, .lang_en a{
+	color:#FFF;
+}
+.play_butt{
+	position:absolute;
+	top:10px;
+	right:10px;
+	opacity:0.7;
+	cursor:pointer;
+}
+.play_butt:hover{
+	opacity:1;
+}
+.plain_summary, .audio_player{
+	display:none;
+}
+.pause_butt, .stop_butt, .play_butt_mini{
+	position:absolute;
+	display:none;
+}
