@@ -1,7 +1,7 @@
 # Clummly
 Web application for summarizing news from different sources (Yahoo News, NY times...)
-Available in English and French
-Live version available at: clummly.6te.net
+Available in English and French.
+A Live version available at: clummly.6te.net
 
 # Setup web app
 	1. Upload all files on / directory of your webserver (except bdd.sql)
